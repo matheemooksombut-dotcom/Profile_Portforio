@@ -1,5 +1,7 @@
 
     window.addEventListener("load", () => {
-        document.querySelector(".P1").classList.add("active")
+        document.querySelectorAll(".P1 , .P2").forEach(el =>{
+           el.classList.add("active");
+        })
     })
 

@@ -1,16 +1,58 @@
+body{
+    background-color: black;
+}
 .P1{
     height: 200px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     opacity: 0;
     transform: scale(0.5);
+  
     border-radius: 10px;
+    
 
-    transition: 1s ease 0.5s;
+    transition:5s ease 3s;
 }
 
 .P1.active{
     opacity: 1;
     transform: scale(1);
     border-radius: 60px;
+}
+
+.P2{
+    margin-left: 60px;
+    margin-top: 50px;
+    
+    height: 50PX;
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease 1s;
+}
+
+
+.P2.active {
+    animation: expandFade 4s ease forwards; 
+}
+
+/* ความยาว animation = 5s ขยาย + 1s จาง */
+@keyframes expandFade {
+    0% {
+        width: 10%;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    80% {
+        width: 90%;   /* ช่วงนี้คือขยาย */
+        opacity: 1;
+    }
+    100% {
+        width: 90%;
+        opacity: 0;    /* จางกลับเป็น 0 */
+    }
 }
