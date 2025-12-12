@@ -1,6 +1,13 @@
-body{
-    background-color: black;
+body {
+  transition: background-color 0.5s ease;
+  background-color: #000000;
 }
+
+body.change-bg {
+  background-color: rgb(168, 170, 245);
+  color: white;
+}
+
 .P1{
     height: 200px;
     width: 100%;
@@ -31,6 +38,7 @@ body{
     transition-property: width;
     transition-duration: 5s;
     transition-timing-function: ease 1s;
+    border-radius: 60px;
 }
 
 
@@ -55,4 +63,25 @@ body{
         width: 90%;
         opacity: 0;    /* จางกลับเป็น 0 */
     }
+
+
+    
 }
+
+.mode{
+    width: 100px;
+    height: 100px;
+}
+
+
+.mode {
+  transition: background-color 0.5s ease;
+  color: aliceblue;
+}
+
+.mode.change-color i {
+ 
+ color: rgb(255, 255, 255) !important;
+}
+
+

@@ -5,3 +5,13 @@
         })
     })
 
+
+
+    document.querySelector(".mode").addEventListener("click" , ()=>{
+        document.body.classList.toggle("change-bg")
+        document.querySelector(".mode").classList.toggle("change-color");
+        // document.querySelector(".P1").classList.toggle("change-content")
+        // document.querySelector(".P2").classList.toggle("change-content")
+    })
+
+
