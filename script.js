@@ -1,6 +1,6 @@
 
     window.addEventListener("load", () => {
-        document.querySelectorAll(".P1 , .P2").forEach(el =>{
+        document.querySelectorAll(".P1 , .P2 , .P3").forEach(el =>{
            el.classList.add("active");
         })
     })

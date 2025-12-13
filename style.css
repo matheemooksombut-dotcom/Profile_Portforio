@@ -49,6 +49,22 @@ body.change-bg {
     animation: expandFade 4s ease forwards; 
 }
 
+
+.P3{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition:5s ease 7s;
+    opacity: 0;
+}
+
+.P3.active{
+    opacity: 1;
+    transform: scale(1);
+    border-radius: 60px; 
+}
+
 /* ความยาว animation = 5s ขยาย + 1s จาง */
 @keyframes expandFade {
     0% {
