@@ -96,7 +96,7 @@ body.change-bg {
 
 .mode {
   transition: background-color 0.5s ease;
-  color: aliceblue;
+  
 }
 
 .mode.change-color i {
@@ -127,4 +127,12 @@ body.change-bg {
   font-weight: 500;
   font-style: normal;
   padding: 100px;
+}
+
+.header-content2{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding: 10px;
 }
