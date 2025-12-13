@@ -16,6 +16,9 @@ body.change-bg {
     transform: scale(0.5);
   
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     
 
     transition:5s ease 3s;
@@ -85,3 +88,18 @@ body.change-bg {
 }
 
 
+.img-profile{
+    width: 200px;
+    height: 200px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;      
+    border-radius: 50%;    
+    
+}
+
+.img-profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
